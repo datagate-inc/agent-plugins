@@ -1,0 +1,11 @@
+{
+  "name": "datagate",
+  "displayName": "Datagate",
+  "version": "1.0.0",
+  "description": "Datagate MCP server packaged as a plugin. Look up and manage customers, invoices, products and rating in Datagate from your agent.",
+  "author": { "name": "Datagate" },
+  "homepage": "https://github.com/datagate-inc/agent-plugins",
+  "repository": "https://github.com/datagate-inc/agent-plugins",
+  "license": "MIT",
+  "keywords": ["datagate", "billing", "invoicing", "telecom", "mcp"]
+}

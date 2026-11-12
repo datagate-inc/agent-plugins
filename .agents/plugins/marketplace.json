@@ -1,0 +1,12 @@
+{
+  "name": "datagate",
+  "interface": { "displayName": "Datagate" },
+  "plugins": [
+    {
+      "name": "datagate",
+      "source": { "source": "local", "path": "./codex" },
+      "policy": { "installation": "AVAILABLE" },
+      "category": "Productivity"
+    }
+  ]
+}

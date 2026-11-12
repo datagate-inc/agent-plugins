@@ -1,0 +1,44 @@
+{
+  "name": "datagate",
+  "displayName": "Datagate",
+  "version": "1.0.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Look up and manage customers, invoices, products and rating in Datagate.",
+  "author": {
+    "name": "Datagate"
+  },
+  "homepage": "https://github.com/datagate-inc/agent-plugins",
+  "repository": "https://github.com/datagate-inc/agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "datagate",
+    "billing",
+    "invoicing",
+    "telecom",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "datagate",
+    "billing",
+    "api",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "DATAGATE_API_KEY": {
+        "description": "Public API key from the Datagate portal under Settings → API Keys. Grants the key's access to the company it belongs to; a read-only key allows reads only.",
+        "title": "Datagate API key",
+        "type": "string"
+      }
+    },
+    "required": [
+      "DATAGATE_API_KEY"
+    ]
+  },
+  "mcpServers": "./mcp.json"
+}

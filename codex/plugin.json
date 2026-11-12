@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "datagate",
+  "version": "1.0.0",
+  "description": "Datagate MCP server packaged as a plugin. Look up and manage customers, invoices, products and rating in Datagate.",
+  "author": { "name": "Datagate" },
+  "homepage": "https://github.com/datagate-inc/agent-plugins",
+  "repository": "https://github.com/datagate-inc/agent-plugins",
+  "license": "MIT",
+  "keywords": ["datagate", "billing", "invoicing", "telecom", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Datagate",
+        "shortDescription": "Look up and manage customers, invoices, products and rating in Datagate.",
+        "longDescription": "Connects ChatGPT and Codex to the Datagate MCP server so the model can find customers, read invoices and billing periods, and manage products, agreements, rate cards and service items, within the permissions of the signed-in portal user.",
+        "developerName": "Datagate",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": [
+          "Use Datagate to find the customer named Acme and show their last three invoices.",
+          "Use Datagate to list the products on customer Acme's account."
+        ]
+      }
+    }
+  }
+}

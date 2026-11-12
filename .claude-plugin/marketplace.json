@@ -1,0 +1,14 @@
+{
+  "name": "datagate",
+  "description": "Datagate plugins for Claude",
+  "owner": { "name": "Datagate" },
+  "plugins": [
+    {
+      "name": "datagate",
+      "description": "Datagate MCP server packaged as a plugin. Look up and manage customers, invoices, products and rating in Datagate from your agent.",
+      "category": "productivity",
+      "source": "./claude",
+      "homepage": "https://github.com/datagate-inc/agent-plugins"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "datagate",
+  "owner": {
+    "name": "Datagate"
+  },
+  "metadata": {
+    "description": "Datagate plugins for AI coding agents"
+  },
+  "plugins": [
+    {
+      "name": "datagate",
+      "source": "cursor",
+      "description": "Look up and manage customers, invoices, products and rating in Datagate.",
+      "minClientVersions": {
+        "cursor": "3.13.0"
+      }
+    }
+  ]
+}
